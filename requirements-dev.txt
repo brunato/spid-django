@@ -9,3 +9,4 @@ bandit
 tox
 spid-sp-test>=0.4.6
 uwsgi
+Sphinx

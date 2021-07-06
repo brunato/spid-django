@@ -227,5 +227,4 @@ Warnings
 Authors
 ------------
 
-- Giuseppe De Marco
-- Davide Brunato
+Giuseppe De Marco, Davide Brunato and others, as shown by the AUTHORS file.
