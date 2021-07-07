@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 project = 'spid-django'
 copyright = '2021, the respective contributors, as shown by the AUTHORS file.'
-author = 'Giuseppe De Marco, Davide Brunato and others'
+author = 'Giuseppe De Marco, Davide Brunato, et al.'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.1'

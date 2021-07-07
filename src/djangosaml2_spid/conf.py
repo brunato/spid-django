@@ -83,9 +83,9 @@ settings.SPID_AUTH_CONTEXT = getattr(
 settings.SPID_ACR_FAUTHN_MAP = getattr(
     settings, 'SPID_ACR_FAUTHN_MAP',
     {
-        SPID_ACR_L1 : 'false',
-        SPID_ACR_L2 : 'true',
-        SPID_ACR_L3 : 'true'
+        SPID_ACR_L1: 'false',
+        SPID_ACR_L2: 'true',
+        SPID_ACR_L3: 'true'
     }
 )
 
@@ -208,6 +208,7 @@ settings.SPID_OPTIONAL_ATTRIBUTES = getattr(settings, 'SPID_OPTIONAL_ATTRIBUTES'
     'mobilePhone',
     'expirationDate',
 ])
+
 
 def config_settings_loader(request: Optional[HttpRequest] = None) -> SPConfig:
     conf = SPConfig()
